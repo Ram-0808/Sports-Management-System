@@ -1,79 +1,70 @@
-**S3 Sports Arena - Academy Management System**
-S3 Sports Arena is a comprehensive, full-stack web application meticulously engineered to modernize the management and operational workflow of a dynamic sports academy. Born from a real-world need for greater transparency and improved communication, this platform bridges the gap between academy staff, athletes, and their families. It directly addresses the common concern from parents regarding their child's development by providing a clear, digital window into daily training activities, assigned tasks, and performance metrics.
+# Getting Started with Create React App
 
-The application operates on a sophisticated role-based access system, delivering a unique, tailored experience for four key user groups: Management, Coaches, Players, and Parents.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Key Features**
-Role-Based Access Control: Secure, dedicated dashboards and functionality for each of the four user roles.
+## Available Scripts
 
-**Management Dashboard:** A powerful administrative overview with a complete list of all users. Features advanced filtering by sport and the ability to track player membership dates. Admins can inspect the tasks assigned to any specific player.
+In the project directory, you can run:
 
-**Coach Dashboard:** An intuitive two-column layout displaying the coach's full player roster alongside a task management system. Coaches can create detailed tasks with due dates and time limits, assign them to individuals, and monitor progress by marking tasks as complete.
+### `npm start`
 
-**Player Dashboard:** A personalized hub for athletes. It prominently displays their unique Player ID (for sharing with parents), lists all assigned tasks with a live timer for time-sensitive activities, and shows relevant, sport-specific opportunities like local tournaments and scholarships.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Parent Dashboard:** A secure portal for parents to stay informed. After registering and linking to their child's account via the Player ID, parents get a read-only view of their child's profile, all assigned tasks, and their real-time completion status.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-User Profiles & Image Uploads: All users have a personal profile page where they can view their details and upload a custom profile picture.
+### `npm test`
 
-**Tech Stack
-Backend: Django, Django REST Framework, djangorestframework-simplejwt**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-****Frontend: React.js (with Hooks), React Router**
+### `npm run build`
 
-**Styling: Tailwind CSS with the DaisyUI component library (using a custom "corporate" theme).**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Database: SQLite (for development)****
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Getting Started
-To get a local copy up and running, follow these simple steps.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Prerequisites
-**Python 3.8+ and Pip**
+### `npm run eject`
 
-**Node.js and npm**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Backend Setup (Django)
-Clone the repository.**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Navigate to the backend directory:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-cd sports_academy
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Create and activate a virtual environment:
+## Learn More
 
-# For Windows
-python -m venv venv
-venv\Scripts\activate
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Install Python dependencies:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-pip install -r requirements.txt
+### Code Splitting
 
-Run database migrations:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-python manage.py makemigrations
-python manage.py migrate
+### Analyzing the Bundle Size
 
-Create a superuser to access the admin panel:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-python manage.py createsuperuser
+### Making a Progressive Web App
 
-Start the backend server:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-python manage.py runserver
+### Advanced Configuration
 
-The backend API will be running at http://127.0.0.1:8000.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Frontend Setup (React)
-Navigate to the frontend directory:
+### Deployment
 
-cd frontend2
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Install JavaScript dependencies:
+### `npm run build` fails to minify
 
-npm install
-
-Start the frontend development server:
-
-npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
